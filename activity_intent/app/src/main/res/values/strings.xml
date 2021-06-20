@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">activity_intent</string>
+    <string name="activity_1_message_recived">Activity 1.Message Recived</string>
+    <string name="send_1">Send 1</string>
+    <string name="send_2">SEND 2</string>
+    <string name="send_3">SEND 3</string>
+    <string name="send_4">SEND 4</string>
+    <string name="send_5">SEND 5</string>
+    <string name="activity_3_message_recived">activity_3_message_recived</string>
+    <string name="activity_3">Activity 3.</string>
+    <string name="activity_2">activity 2</string>
+    <string name="_0">0</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="hello_it_is_activity_2">Hello,It is Activity 2</string>
+    <string name="activity_3_">activity 3</string>
+    <string name="send_4_">Send 4</string>
+    <string name="write_a_message">Write a Message</string>
+    <string name="send_3_">send 3</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="string_enter_your_message" />
+    <string name="title_activity_fourth">FourthActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

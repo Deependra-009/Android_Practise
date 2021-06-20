@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".q2" >
+
+    <TextView
+        android:id="@+id/pnq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="44dp"
+        android:text="Player Name"
+        android:textColor="#121111"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/q2score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="17dp"
+        android:text="Score"
+        android:textColor="#0C0C0C"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pnq2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="195dp"
+        android:text="What is software?"
+        android:textColor="#0B0B0B"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pnq2" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupq2"
+        android:layout_width="344dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/q2r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clothing designed to be worn by computer users"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/q2r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flexible parts of a computer case"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/q2r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Any part of the computer that has a physical structure"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/q2r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions that tell the hardware what to do"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="108dp"
+        android:text="Next"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radiogroupq2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

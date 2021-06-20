@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BakeryApp</string>
+    <string name="foyo_circle">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="donut_circle">Donuts are glazed and sprinkled with candy.</string>
+    <string name="icecream">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="header">Today \'s Special</string>
+</resources>

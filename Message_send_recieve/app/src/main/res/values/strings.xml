@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Messagesenorrec</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="write_a_message_1">Write a message</string>
+    <string name="send_1">SEND</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="send_2">SEND</string>
+    <string name="write_a_message_2">Write a message</string>
+    <string name="send1">SEND</string>
+    <string name="write_a_message1">write a message</string>
+    <string name="write_a_message2">write a message</string>
+    <string name="send2">SEND</string>
+    <string name="tom">TOM</string>
+    <string name="jerry">Jerry</string>
+</resources>

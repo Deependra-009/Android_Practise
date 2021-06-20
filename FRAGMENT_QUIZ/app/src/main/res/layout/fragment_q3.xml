@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".q3">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="366dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:text="The computer’s main circuit board is called a ________."
+        android:textColor="#0B0B0B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pnq3" />
+
+    <TextView
+        android:id="@+id/pnq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="39dp"
+        android:text="Player Name"
+        android:textColor="#121111"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/q3score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="16dp"
+        android:text="Score"
+        android:textColor="#0C0C0C"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pnq3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupq3"
+        android:layout_width="353dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <RadioButton
+            android:id="@+id/q3r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="motherboard"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/q3r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="monitor"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/q3r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hard drive"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/q3r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth card"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="108dp"
+        android:text="Next"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radiogroupq3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

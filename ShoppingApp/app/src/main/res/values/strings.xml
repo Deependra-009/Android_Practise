@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Shopping App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header1">Shopping App</string>
+    <string name="header2">Enter Your Details</string>
+    <string name="mobile">Smart Phones</string>
+    <string name="iphone1">iPhone 12 </string>
+    <string name="iphonedes1">64 GB ROM \n 15.49 cm (6.1 inch) Super Retina XDR Display \n 12MP + 12MP | 12MP Front Camera</string>
+    <string name="iphoneprice1">₹77,900</string>
+    <string name="book">Book</string>
+    <string name="skip">Skip</string>
+
+<!--                            Messages                      -->
+
+    <string name="name1">Enter Your Name</string>
+    <string name="phoneno1">Enter Your Phone Number</string>
+    <string name="address1">Enter Your Address</string>
+    <string name="msg1">Please Login for Better Experience</string>
+    <string name="msg2">Your Order Item </string>
+    <string name="msg3">Choose a Delievery Option</string>
+    <string name="msg4">Address Details</string>
+    <string name="next1">Next</string>
+    <string name="addtocart">Add To Cart</string>
+    <string name="payment">Payment</string>
+
+
+
+
+
+
+    <string name="radio1">Same Day Delievery</string>
+    <string name="radio2">Next Day Delievery</string>
+    <string name="radio3">Pick Up</string>
+    <string name="itemname">TextView</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="amount">Amount:</string>
+    <string name="enter_cvv_number">Enter CVV Number</string>
+    <string name="payment_now">Payment Now</string>
+    <string name="enter_card_holder_name">Enter Card Holder Name</string>
+    <string name="book_successfully">Book Successfully</string>
+    <string name="your_item_name">Your Item Name</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phonenumber">Phonenumber</string>
+    <string name="delieveryoption">delieveryoption</string>
+    <string name="home">Home</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="cvv">CVV</string>
+    <string name="name2">Name:</string>
+    <string name="address2">Address:</string>
+    <string name="phone_no2">Phone No:</string>
+    <string name="enter_your_address">Enter Your Address</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="button1">Hello</string>
+    <string name="button2">Increase</string>
+    <string name="count_value">0</string>
+    <string name="button_1">Decrease</string>
+</resources>
